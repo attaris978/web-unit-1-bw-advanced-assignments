@@ -5,11 +5,18 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="dark-theme.css" />
-    <script type="text/javascript" src="dark-theme.js" async></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" class="themesheet" href="./dark-theme.css" />
+    <script type="text/javascript" src="themeSwitch.js" async></script>
   </head>
   
   <body>
+    <header>
+      <div class="buttonbox">
+        <button type="button" onclick="changeStyle()">Go Dark</button>
+      </div>
+
+    </header>
     <!-- build a button to flip the colors -->
     <!-- build some sections with different types of text so you can see the colors flip -->
   </body>
